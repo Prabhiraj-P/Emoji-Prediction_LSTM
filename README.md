@@ -35,7 +35,7 @@ To see the model in action, you can run the following code:
 ```python
 from emoji_predictor import predict_emoji
 
-prompt = 'Machine learning is fascinating!'
+prompt = 'Machine learning is fascinating'
 predicted_emoji = predict_emoji(prompt)
 
 print(f"Predicted Emoji: {predicted_emoji}")
