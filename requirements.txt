@@ -1,0 +1,5 @@
+ nltk
+ torch
+ emoji
+ numpy 
+ pandas 
