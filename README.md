@@ -81,9 +81,9 @@ from emoji_predictor import predict_emoji
 prompt = 'Machine learning is fascinating!'
 predicted_emoji = predict_emoji(prompt)
 print(f"Predicted Emoji: {predicted_emoji}")
+```
 >>>>>>> 1ac3e674d0a34a8e1038b0cae37095f584a9022e
 =======
-```
 # Emoji Prediction LSTM
 
 ## Overview
@@ -108,7 +108,8 @@ Install dependencies:
 
 bash
 ```
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 Model
 The core of this project is the LSTM-based deep learning model. The model is defined in emoji_predictor.py and uses pre-trained word embeddings for text representation.
 
