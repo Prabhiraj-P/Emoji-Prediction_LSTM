@@ -5,9 +5,17 @@
  numpy 
  pandas 
 =======
+<<<<<<< HEAD
  nltk
  torch
  emoji
  numpy 
  pandas 
+=======
+ nltk
+ torch
+ emoji
+ numpy 
+ pandas 
+>>>>>>> ece4bd2572e41ef201e86c1d3ea9ff71062ba23f
 >>>>>>> 0e815e2aab623a473d4b296521064adc4cf9768e

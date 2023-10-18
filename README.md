@@ -135,8 +135,11 @@ torch.save(lstmModel.state_dict(), 'model.pth')
 ```
 
 # Load the model
+python
+```
 loaded_model = LstmModel(input_size, hidden_size, num_classes, num_layers)
 loaded_model.load_state_dict(torch.load('model.pth'))
+```
 
 # Contributing
 Contributions are welcome! Please read the Contributing Guidelines for details on how to contribute to this project.
