@@ -1,5 +1,13 @@
+<<<<<<< HEAD
  nltk
  torch
  emoji
  numpy 
  pandas 
+=======
+ nltk
+ torch
+ emoji
+ numpy 
+ pandas 
+>>>>>>> 0e815e2aab623a473d4b296521064adc4cf9768e

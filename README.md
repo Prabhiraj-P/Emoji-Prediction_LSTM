@@ -39,6 +39,7 @@ from emoji_predictor import predict_emoji
 prompt = 'Machine learning is fascinating!'
 predicted_emoji = predict_emoji(prompt)
 print(f"Predicted Emoji: {predicted_emoji}")
+```
 =======
 # Emoji Prediction LSTM
 
@@ -82,13 +83,14 @@ predicted_emoji = predict_emoji(prompt)
 print(f"Predicted Emoji: {predicted_emoji}")
 >>>>>>> 1ac3e674d0a34a8e1038b0cae37095f584a9022e
 =======
+```
 # Emoji Prediction LSTM
 
 ## Overview
 
 Emoji Prediction LSTM is a deep learning model that predicts emojis based on text input. This project utilizes a Long Short-Term Memory (LSTM) neural network and pre-trained word embeddings for emoji classification. It can be used to add emojis to text or messages automatically.
 
-##i Prediction
+##  Prediction
 - Deep Learning Model (LSTM)
 - Pre-trained Word Embeddings
 - Training and Evaluation
@@ -98,10 +100,10 @@ To use this project, follow these steps:
 
 Clone the repository:
 
-~bash~
+bash
 
-```git clone https://github.com/yourusername/emoji-prediction-lstm.git
-cd emoji-prediction-lstm````
+ git clone https://github.com/yourusername/emoji-prediction-lstm.git
+cd emoji-prediction-lstm 
 Install dependencies:
 
 bash
@@ -118,18 +120,19 @@ This will train the model on your dataset and save the trained model as model.pt
 
 Evaluation
 To evaluate the model, use
-```total_loss['val_loss'].append(loss.item())```
+total_loss['val_loss'].append(loss.item())
 This script will provide information about the model's performance on a validation dataset.
 
 # Saving and Loading Model
 You can save and load the trained model using the following code:
 
 python
-
+```
 import torch
 
-Save the model
+#Save the model
 torch.save(lstmModel.state_dict(), 'model.pth')
+```
 
 # Load the model
 loaded_model = LstmModel(input_size, hidden_size, num_classes, num_layers)
